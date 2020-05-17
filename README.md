@@ -2,7 +2,7 @@
 init
 
 /*--------------------Local repo to remote ------------------------*/
-git remote -v
+`git remote -v`
 git remote add origin git@github.com:Rusola/... // let this name to be an origin, this origin is located remotely
 git remote -v
 
