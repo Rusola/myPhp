@@ -1,7 +1,7 @@
 # myPhp
 init
 
-#Move Local repo to remote
+## Move Local repo to remote
 
 `git remote -v`
 `git remote add origin git@github.com:Rusola/...` let this name to be an origin, this origin is located remotely
@@ -19,7 +19,7 @@ or
 
 https://scotch.io/courses/get-to-know-git/pushing-local-to-remote
 
-#Move Remote to local
+## Move Remote to local
 be 1 level up as clone will fetch with wrapper folder named as in gitHab ex: be in projects:
 `git clone git@github.com:Rusola/...`
 
