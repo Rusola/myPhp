@@ -2,20 +2,21 @@
 init
 
 /*--------------------Local repo to remote ------------------------*/
+
 `git remote -v`
-git remote add origin git@github.com:Rusola/... // let this name to be an origin, this origin is located remotely
-git remote -v
+`git remote add origin git@github.com:Rusola/...` let this name to be an origin, this origin is located remotely
+`git remote -v`
 
 // optionally: local master may be set up to truck the remote master
-git branch --set-upstream-to=origin/master master
+`git branch --set-upstream-to=origin/master master`
 
-git pull origin master --allow-unrelated-histories // local & remote, they have unrelated histories yet, pull created read.me file from remote
-git commit -m"read.me from githab added" // Commit will needed at this moment or later to complete this merge
+`git pull origin master --allow-unrelated-histories` local & remote, they have unrelated histories yet, pull created read.me file from remote
+`git commit -m"read.me from githab added"` Commit will needed at this moment or later to complete this merge
 
-git push // now I can pull & push (if upstream)
+`git push` now I can pull & push (if upstream)
 
 // or 
-git push origin master
+`git push origin master`
 
 // https://scotch.io/courses/get-to-know-git/pushing-local-to-remote
 
