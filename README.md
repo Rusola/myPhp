@@ -4,7 +4,7 @@ init
 ## Move Local repo to remote
 
 `git remote -v`
-`git remote add origin git@github.com:Rusola/...` let this name to be an origin, this origin is located remotely
+`git remote add origin git@github.com:Rusola/myNewRep` let this name to be an origin, this origin is located remotely
 `git remote -v`
 
 optionally: local master may be set up to track the remote master
