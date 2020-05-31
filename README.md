@@ -10,6 +10,8 @@ init
 optionally: local master may be set up to track the remote master
 `git branch --set-upstream-to=origin/master master`
 
+$ touch .gitignore
+
 `git pull origin master --allow-unrelated-histories` local & remote, they have unrelated histories yet, pull created read.me file from remote
 `git commit -m"read.me from githab added"` Commit will needed at this moment or later to complete this merge
 
