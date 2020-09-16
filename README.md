@@ -1,5 +1,5 @@
 # myPhp
-init
+init.
 
 ## Move Local repo to remote
 
